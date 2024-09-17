@@ -1,0 +1,163 @@
+
+
+.card-container {
+    display: flex;
+    float: right;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 500px;
+    margin-right: 20px;
+    
+  }
+  
+  .card {
+    width: calc(50% - 10px); /* Adjust the width as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+    box-shadow:3px 3px 12px rgba(0,0,0,.1);
+  }
+  
+  .card:nth-child(1),
+  .card:nth-child(2) {
+    align-self: flex-start; /* Aligns the first two cards to the top */
+  }
+  
+  .card:nth-child(3),
+  .card:nth-child(4) {
+    align-self: flex-end; /* Aligns the last two cards to the bottom */
+  }
+
+  .d-block{
+    height: 600px;
+  }
+
+  .b-block{
+    height: 600px;
+  
+  }
+  
+
+  /* Card Styling over */
+
+  .card:hover {
+
+   background-color: #005aa9;
+
+  }
+
+
+  .card:hover{
+    color: white;
+  }
+
+  .card:hover img {
+    background-color: white;
+  }
+  
+  .card {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-15px);
+  }
+  
+
+  /* Third Home Page */
+
+  .card1 {
+    background-color: #fff;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 15px;
+    font-family: Poppins, sans-serif;
+    box-shadow: 0 4px 5px rgba(0,0,0,.22);
+    float: left;
+    margin-top: 40px;
+   
+}
+
+
+/* Fout H0ome page */
+
+.image-container {
+  position: relative;
+  display: inline-block;
+
+
+}
+
+.hover-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 56, 147, 0.7);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  visibility: hidden;
+}
+
+.image-container:hover .hover-text {
+  visibility: visible;
+}
+
+
+/* Five Home Page */
+.card3{
+  float: left;
+}
+
+
+/* Six Home Page */
+
+.acreditions {
+  width: 300px;
+  float: left;
+  margin: 0 auto;
+  margin-left: 100px;
+  text-align: center;
+}
+
+.acreditions h4 {
+  font-size: 40px;
+  color: rgb(111, 113, 163);
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #988670;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin-bottom: 0px;
+ 
+}
+
+.acreditions span {
+  font-size: 18px;
+  color: #988670;
+  font-weight: 500;
+  text-transform: uppercase;
+ 
+}
+
+.acreditions {
+  margin-top: 15px;
+ 
+}
+
+.acreditions img {
+  margin-bottom: 0px;
+  width: 100px;
+ 
+}
+
+
+.morecenter {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.morecenter a {
+  font-size: 13px;
+}

@@ -1,0 +1,189 @@
+ /* Collage History First page css */
+
+ /* About first page */
+
+.container-fluid {
+    position: relative;
+    width: 1200px;
+  
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 1200px;
+    height: 600px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .aboutmiddle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container-fluid:hover .image {
+    opacity: 0.9;
+  }
+  
+  .container-fluid:hover .aboutmiddle {
+    opacity: 1;
+  }
+  
+  .abouttext {
+  
+   
+    font-size: 16px;
+   
+    color: white;
+  }
+
+
+  /* Scond Page CollageHistory */
+
+  .mission-col {
+    display: flex;
+    align-items: center;
+  }
+  
+  .column-112 {
+    flex: 1;
+  }
+  
+  .column-padding {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .mission-img{
+    width: 400px;
+    height: 235px;
+    margin-right: 100px;
+    border: 5px dashed orange;
+    border-radius: 10px;
+    
+
+    border: 3px dashed #f6921e;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-top-style: dashed;
+    border-right-style: dashed;
+    border-bottom-style: dashed;
+    border-left-style: dashed;
+    border-top-color: rgb(246, 146, 30);
+    border-right-color: rgb(246, 146, 30);
+    border-bottom-color: rgb(246, 146, 30);
+    border-left-color: rgb(246, 146, 30);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    padding: 5px;
+  }
+
+
+
+  /* Third page CollageHisory */
+
+
+  #w-node-_70b87105-5bc5-c84b-0b72-f7c389e86d52-92d53211, #w-node-_70b87105-5bc5-c84b-0b72-f7c389e86d5b-92d53211, #w-node-_70b87105-5bc5-c84b-0b72-f7c389e86d64-92d53211, #w-node-_70b87105-5bc5-c84b-0b72-f7c389e86d6d-92d53211 {
+    align-self: stretch;
+    width: 264px;
+    height: 600px;
+    float: left;
+}
+
+.orange-line-2.ultramarine {
+    background-color: #505c7f;
+}
+
+.orange-line-2 {
+    background-color: #f6921e;
+    width: 35px;
+    height: 3px;
+}
+.history-bg-wrap-2 {
+    color: #07294d;
+    background-color: #fff8ee;
+    border-radius: 20px 20px 0 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width: 100%;
+    height: 115px;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.image-221 {
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
+    padding: 3px;
+    position: absolute;
+    top: 10%;
+}
+.gmp-pastel-div-copy-2 {
+    background-color: #fff;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    flex-direction: column;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 1165px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0;
+    display: flex;
+    position: relative;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, .07);
+}
+
+.div-block-269-copy {
+    margin: 70px 20px 20px;
+    margin-top: 70px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+.orange-line-3.ultramarine {
+    background-color: #505c7f;
+}
+
+.orange-line-3 {
+    background-color: #f6921e;
+    width: 1120px;
+    height: 5px;
+}
+

@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+
+
+
+
+/* About first page */
+
+.container-fluid {
+    position: relative;
+    width: 1200px;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 1200px;
+    height: 400px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .aboutmiddle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container-fluid:hover .image {
+    opacity: 0.9;
+  }
+  
+  .container-fluid:hover .aboutmiddle {
+    opacity: 1;
+  }
+  
+  .abouttext {
+  
+   
+    font-size: 16px;
+   
+    color: white;
+  }
+
+
+  /* Scond Page MissionVission */
+
+  .mission-col {
+    display: flex;
+    align-items: center;
+  }
+  
+  .column-112 {
+    flex: 1;
+  }
+  
+  .column-padding {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .mission-img{
+    width: 400px;
+    height: 235px;
+    margin-right: 100px;
+    border: 5px dashed orange;
+    border-radius: 10px;
+    
+
+    border: 3px dashed #f6921e;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-top-style: dashed;
+    border-right-style: dashed;
+    border-bottom-style: dashed;
+    border-left-style: dashed;
+    border-top-color: rgb(246, 146, 30);
+    border-right-color: rgb(246, 146, 30);
+    border-bottom-color: rgb(246, 146, 30);
+    border-left-color: rgb(246, 146, 30);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    padding: 5px;
+  }
+
+
+  .col{
+    background-color: #fdf8fb;
+  }
+
+  

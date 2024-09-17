@@ -1,0 +1,209 @@
+.centered-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 100px; /* Adjust the margin from the top */
+    padding-left: 80px;
+    padding-right: 80px;
+    /* background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-kids-park-play-advertising-background-picture-image_974272.jpg); */
+  }
+  
+  .button-container {
+    margin-top: 20px; /* Adjust the margin between the text and buttons */
+    color:rgb(27, 108, 146);
+    font-size: 18px;
+    margin-top: 50px;
+  }
+  
+  .oval-button1{
+    border: 3px solid rgb(27, 108, 146); /* Set default border color */
+    border-radius: 20px; /* Adjust the border radius to make the buttons oval-shaped */
+    padding: 10px 20px; /* Adjust the padding for button size */
+    margin: 10px; /* Adjust the margin between buttons */
+    background-color: white; /* Set default button color */
+    cursor: pointer; /* Set cursor to pointer */
+  }
+  
+  .oval-button1:hover {
+    background-color: orange; /* Set background color when selected */
+    border-color: orange; /* Set border color when selected */
+    color: white; /* Set text color when selected */
+  }
+  
+  /* Button 1 */
+  .text-container{
+    padding-top: 10px;
+    border-radius: 20px;
+  }
+  .button-wrapper {
+    position: absolute;
+    position: relative;
+    text-align: center;
+    background-color: rgb(181, 208, 212); /* Set the background color */
+    padding: 20px; /* Add padding for better appearance */
+    width: 100%;
+    height: auto;
+    color:rgb(14, 62, 107);
+    margin-top: 30px;
+    font-size: 16px;
+  }
+  
+  .watch-video-button {
+    position: absolute;
+    bottom: -20px;
+    left: 200px;
+    padding: 10px 20px;
+    background-color: #3a17c5;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+  
+  .watch-video-button:hover {
+    background-color: #c6d4d7;
+    color: black;
+  }
+  .image-with-shadow {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+  .oval-inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .oval-input {
+    flex-basis: 30%; /* Adjust width as needed */
+    margin-top: 10px;
+  }
+  
+  .oval-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .oval-field {
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%; /* Adjust width as needed */
+  }
+  .phone-input {
+    display: flex;
+    align-items: center;
+    height: 50px;
+  }
+  
+  .country-code {
+    margin-right: 10px; /* Adjust the space between the country code and phone number field */
+  }
+  
+  .phone-field {
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 200px; /* Adjust the width as needed */
+  }
+  
+  .oval-dropdown {
+    position: relative;
+    width: 200px; /* Adjust the width as needed */
+    background-color: white;
+    border-radius: 20px;
+
+  }
+  
+  .oval-dropdown::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust the distance from the right side */
+    transform: translateY(-50%);
+    width: 20px; /* Adjust the width of the arrow */
+    height: 20px; /* Adjust the height of the arrow */
+    background-size: cover;
+    background-color: white;
+
+  }
+  
+  .passport-country {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    -webkit-appearance: none; /* Remove default arrow icon */
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent; /* Make background transparent to show the oval shape */
+  }
+  
+  .oval-button {
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #396b7c; /* blusky color */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  
+.oval-button:hover {
+  background-color: #73a7bd; /* lighter shade of blusky color */
+}
+
+.additional-info{
+  color:white;
+  font-size: 18px;
+  margin-top: 0px;
+  background-color:  rgb(28, 134, 134);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.circular-border1{
+
+background-image:linear-gradient(rgb(54, 129, 176),white,rgb(54, 129, 176));
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+}
+.circular-border2{
+
+  background-image:linear-gradient(rgb(169, 66, 197) ,white,rgb(169, 66, 197));
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+  }
+  .circular-border3{
+
+    background-image:linear-gradient(rgb(234, 120, 120) ,white,rgb(234, 120, 120) );
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+   }
+
+   .circular-border1 :hover{
+    font-style:oblique ;
+    background-color: #0d596b;
+    color: white;
+    border-radius: 20px;
+   }
+   .circular-border2 :hover{
+    font-style:oblique ;
+    background-color:rgb(83, 22, 100);
+    color: white;
+    border-radius: 20px;
+   }
+   .circular-border3 :hover{
+    font-style:oblique ;
+    background-color:red;
+    color: white;
+    border-radius: 20px;
+   }
+
+   .footer{
+    background-image: url(https://i.pinimg.com/originals/69/e3/3d/69e33dbe9efa230e17472c04b924a104.jpg);
+    color: black;
+   }

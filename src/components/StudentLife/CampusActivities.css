@@ -1,0 +1,54 @@
+.carousel-item-content {
+  display: flex;
+  align-items: center;
+  background-color: rgb(239, 241, 244);
+  width: 100%;
+}
+
+.carousel-text {
+  flex: 1;
+  padding: 10px;
+  color: yellowgreen;
+}
+
+.carousel-image {
+  flex: 1;
+  width: 100%; /* Increase width */
+  height: 500px; /* Increase height */
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  object-fit: cover; /* Ensure the image covers the area without stretching */
+}
+
+.button-container {
+  display: flex;
+  gap: 10px; /* Adjust the spacing between buttons */
+}
+
+/* Pagination styles */
+.pagination-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pagination-controls {
+  margin-top: 20px;
+}
+
+.pagination-controls button {
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.pagination-controls button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.page-content {
+  margin: 10px 0;
+}
